@@ -53,7 +53,6 @@ export default {
       console.log(menu)
       const currentMenu = this.$refs[path.replace('/', '')][0].$el
       console.log(currentMenu)
-
       const toTop = currentMenu.offsetTop + currentMenu.offsetHeight / 2 - menu.offsetHeight / 2
       console.log(toTop)
       const step = 10
@@ -82,6 +81,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
